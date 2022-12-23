@@ -12,6 +12,7 @@ Using their idea, let's see if we can train something for Carnatic music.
 * Once you have the dataset, all you need to do is run a script from the diffusers library to train. 
 
 * I am sharing the first cut results below. These are not handpicked and might not sound good, but note that this is after training just over an epoch. 
+  *
 
 <audio controls>
   <source src="horse.mp3" type="audio/mpeg">
