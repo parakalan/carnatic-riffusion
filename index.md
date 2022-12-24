@@ -46,3 +46,5 @@ Using their idea, let's see if we can train something for Carnatic music.
   * Too much mridangam in the songs - This could be because we have trained on whole songs instead of specific portions of the song. So the Mridangam *tani avartanam* seems to take precedence for many. 
   * The captions are not good. As of now, we generate captions with this template - "Raga {raga name} and composer {composer name}". There is not enough context in this. A better way would be - "Alapanai in raga {raganame} in {talaname} tala", "Neraval in raga {raganame} by {singer name}". Of course, we'd need to segment the songs into *alapanai*, *tani avartanam*, *neraval* and *violin* for this. 
   * The raga is not actually followed in many cases. For this, we could add a loss function with a raga recognition model - or - jointly train a raga detector with SD. 
+
+* Stay tuned for updates - we won't stop until we train a perfect carnatic synthesizer!
